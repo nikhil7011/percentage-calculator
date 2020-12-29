@@ -188,7 +188,8 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.perf.rc \
     ueventd.qcom.rc \
-    apex_metadata.rc
+    apex_metadata.rc \
+    init.realmehub.rc
 
 # Display
 PRODUCT_PACKAGES += \
@@ -391,8 +392,10 @@ PRODUCT_PACKAGES += \
    libtflite \
    libtextclassifier_hash
 
+# RealmeHub
 PRODUCT_PACKAGES += \
-    RemovePackages
+    RealmeHub \
+    RealmeDoze
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
