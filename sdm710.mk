@@ -18,6 +18,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_props.mk
 
+# Performance
+PRODUCT_PACKAGES += \
+    powerctl
 
 # Freeform Multiwindow
 PRODUCT_COPY_FILES += \
